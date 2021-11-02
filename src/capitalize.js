@@ -1,4 +1,4 @@
-function capitalize(value) {
+export default function capitalize(value) {
 
   if (value === '') {
     return ''
