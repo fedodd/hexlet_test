@@ -1,7 +1,7 @@
 export default function capitalize(value) {
 
   if (value === '') {
-    return ''
+    return '';
   }
 
   const valueArray = value.split('');
@@ -9,5 +9,3 @@ export default function capitalize(value) {
 
   return firstLetter.toUpperCase() + stringEnd.join('');
 }
-
-console.log('result', capitalize('hello'))
